@@ -1,6 +1,8 @@
 # _P. falciparum_ _var_ DBLalpha PCR
 
-For _var_ genotyping or _var_ coding, the sequence region within the _var_ genes encoding the Duffy-binding-like alpha (DBLα) domain of _Plasmodium falciparum_ erythrocyte membrane protein 1 (PfEMP1) were amplified in a single-step PCR from genomic DNA (gDNA) using universal degenerate primer sequences to homology block 2 (forward primer: DBLαAF, 5’-GCACGMAGTTTYGC-3’) and homology block 3 (reverse primer: DBLαBR, 5’-GCCCATTCSTCGAACCA- 3’)([Taylor et al. (2000)](https://www.sciencedirect.com/science/article/pii/S0166685199001590?via%3Dihub) and [Bull et al. (2005)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0010026)). **DO WE WANT TO INCLUDE TEXT ON THE SIMPLE MAPPING TO BLOCK D AND H>>>>>>>>>**
+For _var_ genotyping or _var_ coding, the sequence region within the _var_ genes encoding the Duffy-binding-like alpha (DBLα) domain of _Plasmodium falciparum_ erythrocyte membrane protein 1 (PfEMP1) were amplified in a single-step PCR from genomic DNA (gDNA) using universal degenerate primer sequences to homology block 2 (forward primer: DBLαAF, 5’-GCACGMAGTTTYGC-3’) and homology block 3 (reverse primer: DBLαBR, 5’-GCCCATTCSTCGAACCA- 3’)([Taylor et al. (2000)](https://www.sciencedirect.com/science/article/pii/S0166685199001590?via%3Dihub), [Bull et al. (2005)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0010026)). 
+
+**DO WE WANT TO INCLUDE TEXT ON THE SIMPLE MAPPING TO BLOCK D AND H>>>>>>>>>**
 
 * For details on the validation of these primers for amplification of sequences of the appropriate length (~477 bp) using _P. falciparum_ reference strains (3D7, Dd2, and HB3) see [Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/).
 
@@ -9,7 +11,7 @@ This single-step PCR protocol was optimized to maximize amplification success, p
 
 The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF and DBLαBR; [Version 1](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf) or [Version 2]()), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
 
-* For details on the Version 1 and Version 2 DBLαAF and DBLαBR primers, please see below.
+* For details on the [Version 1](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf) and [Version 2]() DBLαAF and DBLαBR primers, please see below.
 
 
 #### Table 1. PCR mastermix.
