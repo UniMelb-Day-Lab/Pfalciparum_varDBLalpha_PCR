@@ -1,13 +1,15 @@
 # _P. falciparum_ _var_ DBLalpha PCR
 
-For _var_ genotyping or _var_ coding, the sequence region within the _var_ genes encoding the Duffy-binding-like alpha (DBLα) domain of _Plasmodium falciparum_ erythrocyte membrane protein 1 (PfEMP1) were amplified in a single-step PCR from genomic DNA (gDNA) using universal degenerate primer sequences to homology block 2 (forward primer: DBLαAF, 5’-GCACGMAGTTTYGC-3’) and homology block 3 (reverse primer: DBLαBR, 5’-GCCCATTCSTCGAACCA- 3’)([Taylor et al. (2000)](https://www.sciencedirect.com/science/article/pii/S0166685199001590?via%3Dihub), [Bull et al. (2005)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0010026)). 
+For _var_ genotyping, a sequence region within the _var_ genes encoding the Duffy-binding-like alpha (DBLα) domain of _Plasmodium falciparum_ erythrocyte membrane protein 1 (PfEMP1) are amplified in a single-step PCR from genomic DNA (gDNA) using universal degenerate primer sequences. These primers (forward primer: DBLαAF, 5’-GCACGMAGTTTYGC-3’; and reverse primer: DBLαBR, 5’-GCCCATTCSTCGAACCA- 3’) originally described by [Taylor et al. (2000)](https://www.sciencedirect.com/science/article/pii/S0166685199001590?via%3Dihub) and modified by [Bull et al. (2005)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0010026)) amplify a ~450 bp fragment known as a **DBLα tag** ([Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/)). The DBLαAF and DBLαBR primers target homology blocks D and H, respectively (as per [Smith et al., 2000](https://pubmed.ncbi.nlm.nih.gov/11071284/)) or homology blocks 2 and 3, respectively (as per [Rask et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20862303/)).
 
-**DO WE WANT TO INCLUDE TEXT ON THE SIMPLE MAPPING TO BLOCK D AND H>>>>>>>>>**
+For details on the validation of these primers for amplification of DBLα sequences of the appropriate length (~450 bp) using _P. falciparum_ reference strains (3D7, Dd2, and HB3) see [Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/).
 
-* For details on the validation of these primers for amplification of sequences of the appropriate length (~477 bp) using _P. falciparum_ reference strains (3D7, Dd2, and HB3) see [Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/).
+A suite of [bioinformatics tools and pipelines](https://github.com/UniMelb-Day-Lab/tutorialDBLalpha) have been developed by the Day Lab at The University of Melbourne to process amplified **DBLα tags** into reference **DBLα types** and perform subsequent downstream analyses. 
+
+Provided below is an overview of the laboratory protocol for the targeted amplicon sequencing of these DBLα tags, known as varcoding ([Tiedje et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37292908/) and [Day et al., 2025] (https://pubmed.ncbi.nlm.nih.gov/40393890/). 
 
 ## PCR Protocol
-This single-step PCR protocol was optimized to maximize amplification success, particularly when working with dried blood spot (DBS) samples collected from participants with low-density infections (e.g., submicroscopic _P. falciparum_ infections).  
+This single-step PCR protocol was optimized to maximize amplification success, particularly when working with dried blood spot (DBS) samples collected from participants with low-density _P. falciparum_ infections.  
 
 The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF and DBLαBR; [Version 1](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf) or [Version 2]()), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
 
@@ -59,7 +61,7 @@ For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF an
 > 5'-(CTATGCGCCTTGCCAGCCCGC)(TCAG)(ACGAGTGCGT)(GCCCATTCSTCGAACCA)-3'
 >```
 
-* For a complete list of the 106 forward and reverse Version 1 primer sequences, see [**Appendix 1**](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf).
+* For a complete list of the 106 Version 1 DBLαAF and DBLαBR primer sequences, see [**Appendix 1**](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf).
 * The use of the GS FLX Titanium primer sequence (i.e., adaptor) in the Version 1 primers is a remnant of previous work and is being phased out. We are currently shifiting to using the updated Version 2 primers described below.
 
 ### Citations for the Version 1 primers
@@ -86,7 +88,7 @@ For Version 2 the universal degenerate primers (i.e., forward primer: DBLαAF an
 > 5'-(GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG)(GCCCATTCSTCGAACCA)-3'
 >```
 
-* For a complete list of the 106 forward and reverse Version 2 primer sequences, see [**Appendix 2**](). 
+* For a complete list of the 106 Version 2 DBLαAF and DBLαBR primer sequences, see [**Appendix 2**](). 
 
 ### Citations for the Version 2 primers
 
