@@ -49,7 +49,7 @@ For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF an
 > 5'-(CTATGCGCCTTGCCAGCCCGC)(TCAG)(ACGAGTGCGT)(GCCCATTCSTCGAACCA)-3'
 >```
 
-* For a complete list of the 106 forward and reverse Verison 1 primer sequences, see **Appendix 1**.
+* For a complete list of the 106 forward and reverse Verison 1 primer sequences, see [**Appendix 1**](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf).
 * The use of the GS FLX Titanium primer sequence (i.e., adaptor) in the Version 1 primers is a remnant of previous work and is being phased out. We are currently shifiting to using the updated Version 2 primers described below.
 
 ### Citations for the Version 1 primers
