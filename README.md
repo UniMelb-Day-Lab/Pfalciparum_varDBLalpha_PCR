@@ -39,8 +39,16 @@ The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µ
 
 _Note: For each PCR, positive (i.e., P. falciparum 3D7 isolate) and negative (i.e., nuclease-free water) controls were included for quality control._
 
+
+## Next Steps (post-PCR)
+1) PCR products were purified using the [SPRI method](https://www.mybeckman.com/resources/technologies/spri-beads) (solid-phase reversible immobilization) (AMPure XP Beads, Beckman Coulter).
+2) Purified PCR product concentrations were measured using the [Quant-iT PicoGreen dsDNA kit](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/mp07581.pdf) as per the manufacturer’s instructions (Invitrogen). We assayed fluorescence intensity using a Perkin-Elmer VICTOR X3 multilabel plate reader, with fluorescein excitation wavelength of ~480 nm and emission of ~520 nm wavelength.
+4) Amplicons were then pooled equimolarly with each pool consisting of up to 106 isolates, all with unique multiplex identifier (MID) tags.
+5) Pooled amplicons were subsequently indexed (Amplicon Indexing Service) and sequenced on an Illumina platform using the MiSeq Reagent Kit v3 (600 cycle; 2×300bp paired-end).
+
+
 ## Version 1 DBLαAF and DBLαBR Primers
-For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with a GS FLX Titanium primer sequence (i.e., adaptor). In addition, both the forward and reverse primers were barcoded with a unique 10 bp multiplex identifier (MID) ([Roche, 2009]()) for multiplexed sequencing.
+For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with a GS FLX Titanium primer sequence (i.e., adaptor). In addition, both the forward and reverse primers were barcoded with a unique 10 bp multiplex identifier (MID) tag ([Roche, 2009](https://www.scribd.com/doc/316505708/The-GS-FLX-Titanium-Chemistry-Extended-MID-Set-Copia)) for multiplexed sequencing.
 
 > Example forward primer: **DBLαAF-MID-1**:     5'-(adaptor)(key)(MID)(DBLα AF forward primer)-3'
 >```
@@ -67,7 +75,7 @@ These Version 1 primers have been used in the following citations:
 
 
 ## Version 2 DBLαAF and DBLαBR Primers
-For Version 2 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with Illumina Nextera overhangs, to facilitate subsequent preparation of sequencing libraries. In addition, the forward primers were barcoded with a unique 10 bp multiplex identifier (MID) ([Roche, 2009]()) for multiplexed sequencing, while the reverse primers were unbarcoded.
+For Version 2 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with Illumina Nextera overhangs, to facilitate subsequent preparation of sequencing libraries. In addition, the forward primers were barcoded with a unique 10 bp multiplex identifier (MID) tag ([Roche, 2009](https://www.scribd.com/doc/316505708/The-GS-FLX-Titanium-Chemistry-Extended-MID-Set-Copia)) for multiplexed sequencing, while the reverse primers were unbarcoded.
 
 > Example forward primer: **DBLαAF-MID-1.v2**:     5'-(Forward Nextera overhang)(MID)(DBLα AF forward primer)-3'
 >```
