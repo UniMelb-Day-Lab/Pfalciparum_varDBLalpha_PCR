@@ -7,7 +7,7 @@ For _var_ genotyping or _var_ coding, the sequence region within the _var_ genes
 ## PCR Protocol
 This single-step PCR protocol was optimized to maximize amplification success, particularly when working with dried blood spot (DBS) samples collected from participants with low-density infections (e.g., submicroscopic _P. falciparum_ infections).  
 
-The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF and DBLαBR; Version 1 or Version 2), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
+The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF and DBLαBR; [Version 1](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf) or [Version 2]()), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
 
 * For details on the Version 1 and Version 2 DBLαAF and DBLαBR primers, please see below.
 
@@ -49,7 +49,7 @@ For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF an
 > 5'-(CTATGCGCCTTGCCAGCCCGC)(TCAG)(ACGAGTGCGT)(GCCCATTCSTCGAACCA)-3'
 >```
 
-* For a complete list of the 106 forward and reverse Verison 1 primer sequences, see [**Appendix 1**](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf).
+* For a complete list of the 106 forward and reverse Version 1 primer sequences, see [**Appendix 1**](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf).
 * The use of the GS FLX Titanium primer sequence (i.e., adaptor) in the Version 1 primers is a remnant of previous work and is being phased out. We are currently shifiting to using the updated Version 2 primers described below.
 
 ### Citations for the Version 1 primers
@@ -76,7 +76,7 @@ For Version 2 the universal degenerate primers (i.e., forward primer: DBLαAF an
 > 5'-(GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG)(GCCCATTCSTCGAACCA)-3'
 >```
 
-* For a complete list of the 106 forward and reverse Verison 2 primer sequences, see **Appendix 2**. 
+* For a complete list of the 106 forward and reverse Version 2 primer sequences, see [**Appendix 2**](). 
 
 ### Citations for the Version 2 primers
 
