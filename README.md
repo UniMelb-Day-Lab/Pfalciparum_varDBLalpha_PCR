@@ -37,7 +37,6 @@ The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µ
 
 _Note: For each PCR, positive (i.e., P. falciparum 3D7 isolate) and negative (i.e., nuclease-free water) controls were included for quality control._
 
-
 ## Version 1 DBLαAF and DBLαBR Primers
 For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with a GS FLX Titanium primer sequence (i.e., adaptor). In addition, both the forward and reverse primers were barcoded with a unique 10 bp multiplex identifier (MID) ([Roche, 2009]()) for multiplexed sequencing.
 
