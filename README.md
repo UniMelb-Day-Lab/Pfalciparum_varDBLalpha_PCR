@@ -43,7 +43,7 @@ The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µ
 * 65ᵒC for 10 min
 * storage at 4°C
 
-_Note: For each PCR, positive (i.e., P. falciparum 3D7 isolate) and negative (i.e., nuclease-free water) controls were included for quality control._
+_Note: For each PCR, positive (e.g., P. falciparum 3D7, Dd2, and/or HB3 reference strains) and negative (i.e., nuclease-free water) controls were included for quality control._
 
 
 ## Next Steps (post-PCR)
