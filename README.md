@@ -1,49 +1,27 @@
-# _P.falciparum_ _var_ DBLalpha PCR
+# _P. falciparum_ _var_ DBLalpha PCR
 
-For _var_ genotyping or _var_coding, the sequence region within the _var_ genes encoding the Duffy-binding-like alpha (DBLα) domain of _Plasmodium falciparum_ erythrocyte membrane protein 1 (PfEMP1) were amplified in a single-step PCR from genomic DNA (gDNA) using universal degenerate primer sequences to homology block 2 (forward primer: DBLαAF, 5’-GCACGMAGTTTYGC-3’) and homology block 3 (reverse primer: DBLαBR, 5’-GCCCATTCSTCGAACCA- 3’)([Taylor et al. (2000)](https://www.sciencedirect.com/science/article/pii/S0166685199001590?via%3Dihub) and [Bull et al. (2005)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0010026)) for multiplexed sequencing. **DO WE WANT TO INCLUDE TEXT ON THE SIMPLE MAPPING TO BLOCK D AND H>>>>>>>>>**
+For _var_ genotyping or _var_ coding, the sequence region within the _var_ genes encoding the Duffy-binding-like alpha (DBLα) domain of _Plasmodium falciparum_ erythrocyte membrane protein 1 (PfEMP1) were amplified in a single-step PCR from genomic DNA (gDNA) using universal degenerate primer sequences to homology block 2 (forward primer: DBLαAF, 5’-GCACGMAGTTTYGC-3’) and homology block 3 (reverse primer: DBLαBR, 5’-GCCCATTCSTCGAACCA- 3’)([Taylor et al. (2000)](https://www.sciencedirect.com/science/article/pii/S0166685199001590?via%3Dihub) and [Bull et al. (2005)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0010026)). **DO WE WANT TO INCLUDE TEXT ON THE SIMPLE MAPPING TO BLOCK D AND H>>>>>>>>>**
 
-For details on the validation of these primers for amplification of sequences of the appropriate length (~477 bp) using _P. falciparum_ reference strains (3D7, Dd2, and HB3) see [Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/) ([Rask et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/)).
-
-
-## Version 1 Primers
-We coupled the template-specific degenerate primers (i.e., DBLαAF and DBLαBR) with a GS FLX Titanium primer sequence (i.e., adaptor). Each of the forward and reverse DBLα primers were barcoded with a unique 10 bp multiplex identifier (MID) tag published by [Roche, 2009]() (For the full primer sequences, see Appendix 1).
-
-> Example forward primer: **DBLαAF-MID-1**:     5'-(adaptor)(key)(MID)(DBL&alpha; AF forward primer)-3'
->```
-> 5'-(CGTATCGCCTCCCTCGCGCCA)(TCAG)(ACGAGTGCGT)(GCACGMAGTTTYGC)-3'
->```
-> Example reverse primer: **DBLαBR-MID-1**:     5'-(adaptor)(key)(MID)(DBL&alpha; BR reverse primer)-3'
->```
-> 5'-(CTATGCGCCTTGCCAGCCCGC)(TCAG)(ACGAGTGCGT)(GCCCATTCSTCGAACCA)-3'
->```
-
-
-DBLaAF, 5’-GCACGMAGTTTYGC-3’) and homology block 3 (reverse primer: DBLaBR, 5’-GCCCATTCSTCGAACCA- 3’) (Bull et al., 2005; Rask et al., 2010) with a GS FLX Titanium primer sequence. Each of the forward and reverse DBLα primers were barcoded with a unique 10 bp multiplex identifier (MID) tag published by (Roche, 2009) (For full primer sequences, see Appendix 2-tables 1 and 2). 
-
-
-The template-specific degenerate primer sequences, orgianlly developed by [Taylor et el., 2000}() and [Bull et al., 2005]() target homology block 2 (forward primer: DBLaAF, 5’-GCACGMAGTTTYGC-3’) and homology block 3 (reverse primer: DBLaBR, 5’-GCCCATTCSTCGAACCA- 3’). **DO WE WANT TO INCLUDE TEXT ON THE SIMPLE MAPPING TO BLOCK D AND H>>>>>>>>>**
-
-Two different versiosn of these primers have been developed and 
-
-For var genotyping or varcoding, the sequence region within the _var_ genes encoding the Duffy-binding-like domain of PfEMP1 were amplified using a single-step PCR
-
-For additional details on the validation of these primers for amplification of sequences of the appropriate length (~477 bp) using _P. falciparum_ reference strains (3D7, Dd2, and HB3) see [Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/) ([Rask et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/)).
+* For details on the validation of these primers for amplification of sequences of the appropriate length (~477 bp) using _P. falciparum_ reference strains (3D7, Dd2, and HB3) see [Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/).
 
 ## PCR Protocol
 This single-step PCR protocol was optimized to maximize amplification success, particularly when working with dried blood spot (DBS) samples collected from participants with low-density infections (e.g., submicroscopic _P. falciparum_ infections).  
 
-The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF, DBLαBR; see XXXXXX), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
+The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF and DBLαBR; Version 1 or Version 2), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
 
- #### Table 2. Round 1 PCR mastermix.
-| Reagent                     | Final Concentration | Volume 1X |
+* For details on the Version 1 and Version 2 DBLαAF and DBLαBR primers, please see below.
+
+
+#### Table 1. PCR mastermix.
+| Reagent                    | Final Concentration | Volume 1X |
 |----------------------------|---------------------|-----------|
-| Buffer (5X)                | 0.5X                  | 4 μL      |
+| Buffer (5X)                | 0.5X                | 4 μL      |
 | MgCl₂ (25 mM)              | 2 mM                | 3.2 μL    |
-| dNTP mix (2 mM)           | 0.07 mM            | 1.4 μL   |
-| Primer DBLαAF (10 μM)      | 0.375 μM            | 1.5 μL      |
-| Primer DBLαBR (10 μM)      | 0.375 μM            | 1.5 μL      |
-| GoTaq G2 Flexi (5 U/μL)    | 3 units           | 0.6 μL   |
-| Nuclease-free water        |                     | 25.8 μL  |
+| dNTP mix (2 mM)            | 0.07 mM             | 1.4 μL    |
+| Primer DBLαAF (10 μM)      | 0.375 μM            | 1.5 μL    |
+| Primer DBLαBR (10 μM)      | 0.375 μM            | 1.5 μL    |
+| GoTaq G2 Flexi (5 U/μL)    | 3 units             | 0.6 μL    |
+| Nuclease-free water        |                     | 25.8 μL   |
 | gDNA Template              |                     | 2 μL      |
 | **TOTAL VOLUME**           |                     | **40 μL** |
 
@@ -58,3 +36,51 @@ The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µ
 * storage at 4°C
 
 _Note: For each PCR, positive (i.e., P. falciparum 3D7 isolate) and negative (i.e., nuclease-free water) controls were included for quality control._
+
+
+## Version 1 DBLαAF and DBLαBR Primers
+For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with a GS FLX Titanium primer sequence (i.e., adaptor). In addition, both the forward and reverse primers were barcoded with a unique 10 bp multiplex identifier (MID) ([Roche, 2009]()) for multiplexed sequencing.
+
+> Example forward primer: **DBLαAF-MID-1**:     5'-(adaptor)(key)(MID)(DBLα AF forward primer)-3'
+>```
+> 5'-(CGTATCGCCTCCCTCGCGCCA)(TCAG)(ACGAGTGCGT)(GCACGMAGTTTYGC)-3'
+>```
+> Example reverse primer: **DBLαBR-MID-1**:     5'-(adaptor)(key)(MID)(DBLα BR reverse primer)-3'
+>```
+> 5'-(CTATGCGCCTTGCCAGCCCGC)(TCAG)(ACGAGTGCGT)(GCCCATTCSTCGAACCA)-3'
+>```
+
+* For a complete list of the 106 forward and reverse Verison 1 primer sequences, see **Appendix 1**.
+* The use of the GS FLX Titanium primer sequence (i.e., adaptor) in the Version 1 primers is a remnant of previous work and is being phased out. We are currently shifiting to using the updated Version 2 primers described below.
+
+### Citations for the Version 1 primers
+
+These Version 1 primers have been used in the following citations:
+* Day KP, Artzy-Randrup Y, Tiedje KE, Rougeron V, Chen DS, Rask TS, Rorick MM, Migot-Nabias F, Deloron P, Luty AJF, Pascual M. Evidence of strain structure in Plasmodium falciparum var gene repertoires in children from Gabon, West Africa. Proc Natl Acad Sci U S A. 2017 May 16;114(20):E4103-E4111. doi: 10.1073/pnas.1613018114. Epub 2017 May 1. Erratum in: Proc Natl Acad Sci U S A. 2024 Apr 9;121(15):e2404410121. doi: 10.1073/pnas.2404410121. PMID: 28461509; PMCID: PMC5441825. (https://pubmed.ncbi.nlm.nih.gov/28461509/)
+* Rougeron V, Tiedje KE, Chen DS, Rask TS, Gamboa D, Maestre A, Musset L, Legrand E, Noya O, Yalcindag E, Renaud F, Prugnolle F, Day KP. Evolutionary structure of Plasmodium falciparum major variant surface antigen genes in South America: Implications for epidemic transmission and surveillance. Ecol Evol. 2017 Oct 8;7(22):9376-9390. doi: 10.1002/ece3.3425. PMID: 29187975; PMCID: PMC5696401. (https://pubmed.ncbi.nlm.nih.gov/29187975/)
+* Ruybal-Pesántez S, Tiedje KE, Tonkin-Hill G, Rask TS, Kamya MR, Greenhouse B, Dorsey G, Duffy MF, Day KP. Population genomics of virulence genes of Plasmodium falciparum in clinical isolates from Uganda. Sci Rep. 2017 Sep 18;7(1):11810. doi: 10.1038/s41598-017-11814-9. Erratum in: Sci Rep. 2024 Sep 30;14(1):22717. doi: 10.1038/s41598-024-72799-w. PMID: 28924231; PMCID: PMC5603532. (https://pubmed.ncbi.nlm.nih.gov/28924231/)
+* Ruybal-Pesántez S, Sáenz FE, Deed SL, Johnson EK, Larremore DB, Vera-Arias CA, Tiedje KE, Day KP. Molecular epidemiology of continued Plasmodium falciparum disease transmission after an outbreak in Ecuador. Front Trop Dis. 2023;4:1085862. doi: 10.3389/fitd.2023.1085862. Epub 2023 Mar 16. PMID: 39525803; PMCID: PMC11546077. (https://pubmed.ncbi.nlm.nih.gov/39525803/)
+* Ruybal-Pesántez S, Tiedje KE, Pilosof S, Tonkin-Hill G, He Q, Rask TS, Amenga-Etego L, Oduro AR, Koram KA, Pascual M, Day KP. Age-specific patterns of DBLα var diversity can explain why residents of high malaria transmission areas remain susceptible to Plasmodium falciparum blood stage infection throughout life. Int J Parasitol. 2022 Oct;52(11):721-731. doi: 10.1016/j.ijpara.2021.12.001. Epub 2022 Jan 31. PMID: 35093396; PMCID: PMC9339046. (https://pubmed.ncbi.nlm.nih.gov/35093396/)
+* Tan MH, Tiedje KE, Feng Q, Zhan Q, Pascual M, Shim H, Chan YB, Day KP. A paradoxical population structure of var DBLα types in Africa. PLoS Pathog. 2025 Feb 4;21(2):e1012813. doi: 10.1371/journal.ppat.1012813. PMID: 39903780; PMCID: PMC11793742. (https://pubmed.ncbi.nlm.nih.gov/39903780/)
+* Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos DC, Deed SL, Ghansah A, Bangre O, Oduro AR, Koram KA, Pascual M, Day KP. Measuring changes in Plasmodium falciparum census population size in response to sequential malaria control interventions. medRxiv [Preprint]. 2025 Jun 17:2023.05.18.23290210. doi: 10.1101/2023.05.18.23290210. PMID: 37292908; PMCID: PMC10246142. (https://pubmed.ncbi.nlm.nih.gov/37292908/)
+
+
+## Version 2 DBLαAF and DBLαBR Primers
+For Version 2 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with Illumina Nextera overhangs, to facilitate subsequent preparation of sequencing libraries. In addition, the forward primers were barcoded with a unique 10 bp multiplex identifier (MID) ([Roche, 2009]()) for multiplexed sequencing, while the reverse primers were unbarcoded.
+
+> Example forward primer: **DBLαAF-MID-1.v2**:     5'-(Forward Nextera overhang)(MID)(DBLα AF forward primer)-3'
+>```
+> 5'-(TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG)(ACGAGTGCGT)(GCACGMAGTTTYGC)-3'
+>```
+> Example reverse primer: **DBLαBR.v2**:     5'-(Reverse Nextera overhang)(DBLα BR reverse primer)-3'
+>```
+> 5'-(GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG)(GCCCATTCSTCGAACCA)-3'
+>```
+
+* For a complete list of the 106 forward and reverse Verison 2 primer sequences, see **Appendix 2**. 
+
+### Citations for the Version 2 primers
+
+These Version 2 primers have been used in the following citations:
+
+* Tan MH, Bangre O, Rios-Teran CA, Tiedje KE, Deed SL, Zhan Q, Rasyidi F, Pascual M, Ansah PO, Day KP. Metagenomic analysis reveals extreme complexity of Plasmodium spp. infections in high transmission in West Africa. medRxiv [Preprint]. 2025 May 2:2025.04.29.25326533. doi: 10.1101/2025.04.29.25326533. PMID: 40343031; PMCID: PMC12060935 (https://pubmed.ncbi.nlm.nih.gov/40343031/)
