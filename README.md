@@ -4,13 +4,13 @@ For _var_ genotyping, a sequence region within the _var_ genes encoding the Duff
 * Forward primer: DBLαAF, 5’-GCACGMAGTTTYGC-3’
 * Reverse primer: DBLαBR, 5’-GCCCATTCSTCGAACCA- 3’
 
-The DBLαAF and DBLαBR primers target homology blocks D and H, respectively (as per [Smith et al., 2000](https://pubmed.ncbi.nlm.nih.gov/11071284/)) or homology blocks 2 and 3, respectively (as per [Rask et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20862303/)).
+The DBLαAF and DBLαBR primers target homology blocks D and H, respectively (as per [Smith et al. 2000](https://pubmed.ncbi.nlm.nih.gov/11071284/)) or homology blocks 2 and 3, respectively (as per [Rask et al. 2010](https://pubmed.ncbi.nlm.nih.gov/20862303/)).
 
 For details on the validation of these primers for amplification of DBLα sequences of the appropriate length (~450 bp) using _P. falciparum_ reference strains (3D7, Dd2, and HB3) see [Rask et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27102804/).
 
 A suite of [bioinformatics tools and pipelines](https://github.com/UniMelb-Day-Lab/tutorialDBLalpha) have been developed by the Day Lab at The University of Melbourne to process amplified **DBLα tags** into reference **DBLα types** and perform subsequent downstream analyses. 
 
-Provided below is an overview of the laboratory protocol for the targeted amplicon sequencing of these DBLα tags, known as varcoding ([Tiedje et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37292908/) and [Day et al., 2025](https://pubmed.ncbi.nlm.nih.gov/40393890/). 
+Provided below is an overview of the laboratory protocol for the targeted amplicon sequencing of these DBLα tags, known as varcoding ([Tiedje et al. 2023](https://pubmed.ncbi.nlm.nih.gov/37292908/) and [Day et al. 2025](https://pubmed.ncbi.nlm.nih.gov/40393890/). 
 
 ## PCR Protocol
 This single-step PCR protocol was optimized to maximize amplification success, particularly when working with dried blood spot (DBS) samples collected from participants with low-density _P. falciparum_ infections.  
