@@ -54,11 +54,11 @@ _Note: For each PCR, positive (e.g., P. falciparum 3D7, Dd2, and/or HB3 referenc
 ## Version 1 DBLαAF and DBLαBR Primers
 For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with a GS FLX Titanium primer sequence (i.e., adaptor). In addition, both the forward and reverse primers were barcoded with a unique 10 bp multiplex identifier (MID) tag ([Roche, 2009](https://www.scribd.com/doc/316505708/The-GS-FLX-Titanium-Chemistry-Extended-MID-Set-Copia)) for multiplexed sequencing.
 
-> Example forward primer: **DBLαAF-MID-1**:     5'-(adaptor)(key)(MID)(DBLα AF forward primer)-3'
+> Example forward primer: **DBLaAF-MID-1**:     5'-(Adaptor)(Key)(MID)(DBLαAF forward primer)-3'
 >```
 > 5'-(CGTATCGCCTCCCTCGCGCCA)(TCAG)(ACGAGTGCGT)(GCACGMAGTTTYGC)-3'
 >```
-> Example reverse primer: **DBLαBR-MID-1**:     5'-(adaptor)(key)(MID)(DBLα BR reverse primer)-3'
+> Example reverse primer: **DBLaBR-MID-1**:     5'-(Adaptor)(Key)(MID)(DBLαBR reverse primer)-3'
 >```
 > 5'-(CTATGCGCCTTGCCAGCCCGC)(TCAG)(ACGAGTGCGT)(GCCCATTCSTCGAACCA)-3'
 >```
@@ -79,13 +79,13 @@ These Version 1 primers have been used in the following citations:
 
 
 ## Version 2 DBLαAF and DBLαBR Primers
-For Version 2 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with Illumina Nextera overhangs, to facilitate subsequent preparation of sequencing libraries. In addition, the forward primers were barcoded with a unique 10 bp multiplex identifier (MID) tag ([Roche, 2009](https://www.scribd.com/doc/316505708/The-GS-FLX-Titanium-Chemistry-Extended-MID-Set-Copia)) for multiplexed sequencing, while the reverse primers were unbarcoded.
+For Version 2 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with Illumina Nextera overhangs, to facilitate subsequent preparation of sequencing libraries. In addition, the forward primers were barcoded with a unique 10 bp multiplex identifier (MID) tag ([Roche, 2009](https://www.scribd.com/doc/316505708/The-GS-FLX-Titanium-Chemistry-Extended-MID-Set-Copia)) for multiplexed sequencing, while the reverse primers were not barcoded (i.e. no multiplex identifier (MID)).
 
-> Example forward primer: **DBLαAF-MID-1.v2**:     5'-(Forward Nextera overhang)(MID)(DBLα AF forward primer)-3'
+> Example forward primer: **DBLaAF-MID-1.v2**:     5'-(Forward Nextera overhang)(MID)(DBLαAF forward primer)-3'
 >```
 > 5'-(TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG)(ACGAGTGCGT)(GCACGMAGTTTYGC)-3'
 >```
-> Example reverse primer: **DBLαBR.v2**:     5'-(Reverse Nextera overhang)(DBLα BR reverse primer)-3'
+> Example reverse primer: **DBLaBR.v2**:     5'-(Reverse Nextera overhang)(DBLαBR reverse primer)-3'
 >```
 > 5'-(GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG)(GCCCATTCSTCGAACCA)-3'
 >```
