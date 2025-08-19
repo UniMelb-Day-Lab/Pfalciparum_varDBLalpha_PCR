@@ -13,9 +13,9 @@ Provided below is an overview of the laboratory protocol for the targeted amplic
 ## PCR Protocol
 This single-step PCR protocol was optimized to maximize amplification success, particularly when working with dried blood spot (DBS) samples collected from participants with low-density _P. falciparum_ infections.  
 
-The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF and DBLαBR; [Version 1](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf) or [Version 2]()), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
+The single-step PCR was carried out in a total volume of 40 μL, comprising 2 µL of gDNA template, with final concentrations of 0.5X buffer, 2 mM of MgCl₂, 0.07 mM of dNTP mix (Promega), 0.375 μM of each primer (DBLαAF and DBLαBR; [Version 1](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf) or [Version 2](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%202%20Version%202%20DBLa%20Primers.pdf)), 3 units of GoTaq G2 Flexi DNA polymerase (Promega), and nuclease-free water.
 
-* For details on the [Version 1](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf) and [Version 2]() DBLαAF and DBLαBR primers, please see below.
+* For details on the [Version 1]([https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%201%20Version%201%20DBLa%20Primers.pdf)) and [Version 2](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR/blob/main/Appendix%202%20Version%202%20DBLa%20Primers.pdf) DBLαAF and DBLαBR primers, please see below.
 
 
 #### Table 1. PCR mastermix.
